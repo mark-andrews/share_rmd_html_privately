@@ -1,0 +1,14 @@
+---
+title: "Demo of html rendered RMarkdown file"
+author: "Mark Andrews"
+---
+
+$$
+\psi_i = \sqrt{\phi_i + \eta_i + epsilon_i}
+$$
+
+```{r}
+m <- lm(dist ~ speed, data = cars)
+```
+
+The value of $R^2$ is `r round(summary(m)$r.squared, 3)`.
