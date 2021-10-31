@@ -4,7 +4,7 @@ author: "Mark Andrews"
 ---
 
 $$
-\psi_i = \sqrt{\phi_i + \eta_i + epsilon_i}
+\psi_i = \sqrt{\phi_i + \eta_i + \epsilon_i}
 $$
 
 ```{r}
